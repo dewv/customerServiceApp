@@ -11,6 +11,6 @@ You will need to:
 - Replace the contents of this file with something appropriate for your app.
 
 # Reference Data (Subject to updates)
-Controller needs to accomplish CRUD tasks
-View needs to create a useable webpage
-Model needs to handle the data being utilized
+- Controller needs to accomplish CRUD tasks
+- View needs to create a useable webpage
+- Model needs to handle the data being utilized
