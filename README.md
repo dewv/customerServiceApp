@@ -9,3 +9,8 @@ You will need to:
 - If you are using c9, and this folder is not the top of the workspace, consider copying or linking `.eslintrc` in the parent directory so that c9 will use it
 - Consider creating `.env` for MySQL database credentials. Code will default to using c9 MySQL credentials.
 - Replace the contents of this file with something appropriate for your app.
+
+# Reference Data (Subject to updates)
+Controller needs to accomplish CRUD tasks
+View needs to create a useable webpage
+Model needs to handle the data being utilized
