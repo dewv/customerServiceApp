@@ -11,6 +11,10 @@ You will need to:
 - Replace the contents of this file with something appropriate for your app.
 
 # Reference Data (Subject to updates)
-- Controller needs to accomplish CRUD tasks
-- View needs to create a useable webpage
-- Model needs to handle the data being utilized
+- Controller needs to accomplish:  
+  <ul><li>Handles HTTP requests, turning them into operations on model and/or view (staff or student, etc)</li>  
+  <li>RESTful API; defines "business operations" such as CRUD methods as HTTP requests (method, URL)</li></ul>  
+- View needs to create a useable webpage  
+  <ul><li>user interface that can handle CRUD operations</li></ul>  
+- Model needs to handle the data being utilized  
+  <ul><li>Uses the public API and database to store and read data from CRUD/HTTP requests</li></ul>
