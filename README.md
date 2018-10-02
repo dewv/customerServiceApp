@@ -1,7 +1,7 @@
 # Customer Service Application
 
-![build status](https://travis-ci.org/dewv/customerServiceApp.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/dewv/customerServiceApp/badge.svg?branch=master)](https://coveralls.io/github/dewv/webapp-template?branch=master)
+[![Build Status](https://travis-ci.org/dewv/customerServiceApp.svg?branch=master)](https://travis-ci.org/dewv/customerServiceApp)
+[![Coverage Status](https://coveralls.io/repos/github/dewv/customerServiceApp/badge.svg?branch=master)](https://coveralls.io/github/dewv/customerServiceApp?branch=master)
 
 # Reference Data (Subject to updates)
 - Controller needs to accomplish:  
