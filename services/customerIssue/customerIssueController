@@ -1,0 +1,24 @@
+/** MVC controller for the "customerIssue" service. 
+ * @module services/customerIssue/customerIssueController
+ */
+
+"use strict";
+
+const Controller = require("../../mmvece/Controller");
+
+/** Implements a RESTful API for the "customerIssue" service, using its MVC model and views.
+ */
+class customerIssueController extends Controller {
+    constructor() {
+        super("customerIssue", "../services/customerIssue/Customer", "../services/customerIssue/customerIssueViews");
+        
+        // Disable super class functions not supported by this service.
+        this._listAll = undefined;
+        this._enterNewData = undefined;
+        this._saveNewData = undefined;
+        this._viewData = undefined;
+        this._deleteData = undefined;
+    }
+}
+
+module.exports = new customerIssueController();
