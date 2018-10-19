@@ -6,7 +6,7 @@
 
 Review the list below and enter "Yes" or "No" to indicate which categories have acceptable levels of risk.
 
-| Risk category | Is level of risk acceptable? |
+| Risk category | Is the category at risk? |
 | ---- | ---- |
 | investing too many or too few resources | No |
 | missing success-critical stakeholders      | No |
@@ -30,7 +30,7 @@ Mitigation plans are steps that *you* will take *this week*, and probably today.
 - Place implementation tasks on hold
 - Propose cancelling the project
 
-The most critical risk(s) are the first appearance(s) of "No" in the table above. 
+The most critical risk(s) are the first appearance(s) of "Yes" in the table above. 
 
 | Date | Mitigation plans |
 | ---- | ---------------- |
