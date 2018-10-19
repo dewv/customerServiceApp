@@ -6,8 +6,8 @@
 # Design (Subject to updates)
 - All uses base view from submodule
 - Student/Staff submit new issue
-  - they get here through the nlc portal (makes most sense to me)
-  - anonymous was suggested, I suggest being logged in to help avoid random spam.
+  - login is optional, login with D&E info else anonymous
+    - If anonymous then ask for contact details?
   - Restful API to database 
     - Database will have: 
       - pk
@@ -27,12 +27,15 @@
       - Github issue number
       - Github repository (probably don't need)
 - Should be able to view/add comments to it.  CAN NOT update original issue.
-  - get to this through student page
-    - this suggests that students can logout of nlc and create/view issues (we should call them something else to make it clear to them what the purpose is.  "Submit Bug/improvement"? "View submitted Bug/improvment"?  
+    - Adding or viewing old Issues means goign back into the repository, should only students or whoever has a legitimate login be able to view their old Issues?  Just asking the database for issues associated to a certain email or contact credential seems like poor usage/confidentiality of a persons credentials.
+    - we should call them something else to make it clear to them what the purpose is when this rolls out.  "Submit      Bug/improvement"? "View submitted Bug/improvment"?  
+      - For our intents and purposes, they will be referred to as "Issues".
     - Separate comment database will have:
       - pk
       - issueFK
       - date commented
       - Comment
  - Does a github webhook request to sync their view
-- CAN NOT Delete issue, but maybe hide them from user after closure?
+- CAN NOT Delete issue
+- Have two views or three views for which issues are shown.  "Open", "Closed", and maybe "All", with "Open" being default view.  
+
