@@ -7,7 +7,8 @@
     - Database will have: 
       - pk
       - subject
-      - Issue content
+      - Issue comment
+        - When building the issue (heading and comment) it should be presented as a "Short" and a "Long" description to be clear to those submitting issues
       - contactName
       - dateSubmitted
       - issue status (reference codes)  
@@ -22,8 +23,8 @@
       - Github issue number
       - Github repository (probably don't need)
 - Should be able to view/add comments to it.  CAN NOT update original issue.
-    - Adding or viewing old Issues means goign back into the repository, should only students or whoever has a legitimate login be able to view their old Issues?  Just asking the database for issues associated to a certain email or contact credential seems like poor usage/confidentiality of a persons credentials.
-    - we should call them something else to make it clear to them what the purpose is when this rolls out.  "Submit      Bug/improvement"? "View submitted Bug/improvment"?  
+    - Adding or viewing old Issues means going back into the repository, only students or whoever has a legitimate login be able to view their old Issues.  If anonymous user, update issue process via automated email (if provided)
+    - we should call them something else to make it clear to them what the purpose is when this rolls out.  "Submit Bug/improvement"? "View submitted Bug/improvment"?  
       - For our intents and purposes, they will be referred to as "Issues".
     - Separate comment database will have:
       - pk
@@ -32,4 +33,4 @@
       - Comment
  - Does a github webhook request to sync their view
 - CAN NOT Delete issue
-- Have two views or three views for which issues are shown.  "Open", "Closed", and maybe "All", with "Open" being default view.  
+- "Open", "Closed", and maybe "All" as filterable flags for the issues they can view. 
