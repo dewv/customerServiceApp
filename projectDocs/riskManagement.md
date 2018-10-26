@@ -6,18 +6,18 @@
 
 Review the list below and enter "Yes" or "No" to indicate which categories have acceptable levels of risk.
 
-| Risk category | Is the category at risk? |
-| ---- | ---- |
-| investing too many or too few resources | No |
-| missing success-critical stakeholders      | No |
-| missing win conditions      | No |
-| conflicting win conditions      | No |
-| too much or too little quality assurance work      | No |
+|     Risk category     |     Is the category at risk?      |
+| --------------------- | --------------------------------- |
+| investing too many or too few resources             |  No |
+| missing success-critical stakeholders               |  No |
+| missing win conditions                              |  No |
+| conflicting win conditions                          |  No |
+| too much or too little quality assurance work       |  No |
 | too much or too little requirements definition      | Yes |
-| too much or too little design definition      | Yes |
-| too much or too little implementation work      | No |
-| too much or too little deployment planning      | No |
-| deploying too late or too soon      | No |
+| too much or too little design definition            | Yes |
+| too much or too little implementation work          | Yes |
+| too much or too little deployment planning          | Yes |
+| deploying too late or too soon                      |  No |
 
 ## Risk mitigation
 
@@ -32,7 +32,8 @@ Mitigation plans are steps that *you* will take *this week*, and probably today.
 
 The most critical risk(s) are the first appearance(s) of "Yes" in the table above. 
 
-| Date | Mitigation plans |
-| ---- | ---------------- |
-| 10/14 | Review all documents and confirm with Mattingly on Friday design and implementation |
+|  Date | Mitigation plans |
+| ----- | ---------------- |
+| 10/26 | Continue updated Design definition and model definitions using MVC |
+| 10/26 | Further project planning to direct my work more |
 
