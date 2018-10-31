@@ -4,11 +4,12 @@
 |   Database column   |   expected input   |        Thoughts on implementation        |
 | ------------------- | ------------------ | ---------------------------------------- |
 |          pk         |    auto-generate   |                                          |
+|    urgency flag     |check box from user | issue label for urgency for service interrupts |
 |       subject       |  string from user  | short description to user to add clarity |
 |  Issue comment FK   |  string from user  | long description to user to add clarity  |
 |     contactName     |  string from user  |                                          |
 |    dateSubmitted    |    auto-generate   |                                          |
-|     issueStatus     | Pulled from github |                                          |
+|     issueStatus     | Pulled from github |Says github, but readlly reference table  |
 | github issue number | Pulled from github |                                          |
 |  github repository  | pulled from github |           probably don't need            |
        
@@ -21,12 +22,6 @@
   |      40      |  "Fix Implemented"    |  
   |      50      |  "Fix Confirmed"      |  
     
-    
-- Separate comment database will have:  (hard to tell if we need this)
-      - pk
-      - issueFK
-      - date commented
-      - Comment
       
 ### Comment database
 | Database Column |     Expected input     | Thoughts on implementation |
@@ -46,6 +41,8 @@
     - we should call them something else to make it clear to them what the purpose is when this rolls out.  "Submit Bug/improvement"? "View submitted Bug/improvment"?
       - For our intents and purposes, they will be referred to as "Issues".
 - CAN NOT Delete issue
+- Whenever information is updated, triggers github webhook to update on github.
+- have the mysql server update every few minutes from github IF github commits won't trigger the webhook
 
 
 ## View
