@@ -8,16 +8,16 @@ Review the list below and enter "Yes" or "No" to indicate which categories have 
 
 |     Risk category     |     Is the category at risk?      |
 | --------------------- | --------------------------------- |
-| investing too many or too few resources             |  No |
-| missing success-critical stakeholders               |  No |
-| missing win conditions                              |  No |
-| conflicting win conditions                          |  No |
-| too much or too little quality assurance work       |  No |
-| too much or too little requirements definition      | Yes |
-| too much or too little design definition            | Yes |
-| too much or too little implementation work          | Yes |
-| too much or too little deployment planning          | Yes |
-| deploying too late or too soon                      |  No |
+| investing too many or too few resources             |  Yes |
+| missing success-critical stakeholders               |  No  |
+| missing win conditions                              |  No  |
+| conflicting win conditions                          |  No  |
+| too much or too little quality assurance work       |  No  |
+| too much or too little requirements definition      | Yes  |
+| too much or too little design definition            | Yes  |
+| too much or too little implementation work          | Yes  |
+| too much or too little deployment planning          | Yes  |
+| deploying too late or too soon                      |  No  |
 
 ## Risk mitigation
 
@@ -34,6 +34,7 @@ The most critical risk(s) are the first appearance(s) of "Yes" in the table abov
 
 |  Date | Mitigation plans |
 | ----- | ---------------- |
-| 10/26 | Continue updated Design definition and model definitions using MVC |
-| 10/26 | Further project planning to direct my work more |
+| 11/7  | Start defining Rev 1.1. |
+| 11/7  | If someone is available for work, use them |
+| 11/7  | Outline deployment phases to describe how we go from barebone to full App |
 
