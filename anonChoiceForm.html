@@ -1,0 +1,37 @@
+<% try { %>
+
+<% var pageTitle = "Customer Service App - Login Page"; %>
+<% include ../../pageTopTemplate.html %>
+<div>
+    <!-- TODO need "one click" script --> 
+    <form action="<%= baseUrl + "/" %>" method="post">
+        Hello there, welcome to our customer service app. Would you like to login anonymously?
+        <br>
+        <input id="anonymous_login_Y" type="radio" name="anonymous_login" value="Y" <%=( anonymous_login_yn == "Y" ? "checked" : "") %>>Yes
+        <br>
+        <input id="anonymous_login_N" type="radio" name="anonymous_login" value="N" <%=( anonymous_login_yn == "N" ? "checked" : "") %>>No
+        <br>
+        <br>
+        
+        <script language = "Javascript">
+            if ("anonymous_login"==="Y") 
+            {
+                var login_choice_display;
+                var login_choice_display = "Please log in with an email we can reach you at.";
+            }
+            else
+            {
+                var login_choice_display;
+                var login_choice_display = "Please log in with your D&E user info.";
+            }
+            
+        </script>
+        display
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</div>    
+<% include ../../pageBottomTemplate.html %>
+<% } catch(error) { %>
+A template error occurred at the end of the preceding line.
+<% } %>
+
