@@ -37,4 +37,3 @@ The most critical risk(s) are the first appearance(s) of "Yes" in the table abov
 | 11/7  | Start defining Rev 1.1. |
 | 11/7  | If someone is available for work, use them |
 | 11/7  | Outline deployment phases to describe how we go from barebone to full App |
-
