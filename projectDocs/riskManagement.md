@@ -13,10 +13,10 @@ Review the list below and enter "Yes" or "No" to indicate which categories have 
 | missing win conditions                              |  No  |
 | conflicting win conditions                          |  No  |
 | too much or too little quality assurance work       |  No  |
-| too much or too little requirements definition      | Yes  |
-| too much or too little design definition            | Yes  |
-| too much or too little implementation work          | Yes  |
-| too much or too little deployment planning          | Yes  |
+| too much or too little requirements definition      |  Yes |
+| too much or too little design definition            |  No  |
+| too much or too little implementation work          |  Yes |
+| too much or too little deployment planning          |  Yes |
 | deploying too late or too soon                      |  No  |
 
 ## Risk mitigation
@@ -34,6 +34,6 @@ The most critical risk(s) are the first appearance(s) of "Yes" in the table abov
 
 |  Date | Mitigation plans |
 | ----- | ---------------- |
-| 11/7  | Start defining Rev 1.1. |
-| 11/7  | If someone is available for work, use them |
-| 11/7  | Outline deployment phases to describe how we go from barebone to full App |
+| 11/30  | Note how Rev 1.1 will be implemented |
+| 11/30  | If someone is available for work, use them to start modeling then control the data |
+| 11/30  | Outline deployment phases to describe how we go from barebone to full App |
